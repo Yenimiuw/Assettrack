@@ -1,4 +1,7 @@
-export const API_URL = (process.env.EXPO_PUBLIC_API_URL ?? '').replace(/\/+$/, '');
+export const API_URL = (
+  process.env.EXPO_PUBLIC_API_URL ??
+  'https://assettrack-assettrack-api.vercel.app'
+).replace(/\/+$/, '');
 export const APP_ID = 'assettrack';
 export const CODE_RE = /^[0-9a-f]{32}$/;
 export const REQUEST_TIMEOUT_MS = 15_000;

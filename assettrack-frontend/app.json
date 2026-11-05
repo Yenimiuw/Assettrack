@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.assettrack"
+      "bundleIdentifier": "https://assettrack-assettrack-api.vercel.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,10 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.yourname.assettrack"
+      "package": "com.yourname.assettrack",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +35,11 @@
         }
       ],
       "expo-image"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b3760a90-72b5-494e-a9ab-323e7746c485"
+      }
+    }
   }
 }

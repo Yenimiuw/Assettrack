@@ -4,11 +4,11 @@
     "preview": {
       "distribution": "internal",
       "android": { "buildType": "apk" },
-      "env": { "EXPO_PUBLIC_API_URL": "https://YOUR-BACKEND.vercel.app" }
+      "env": { "EXPO_PUBLIC_API_URL": "https://assettrack-assettrack-api.vercel.app" }
     },
     "production": {
       "android": { "buildType": "app-bundle" },
-      "env": { "EXPO_PUBLIC_API_URL": "https://YOUR-BACKEND.vercel.app" }
+      "env": { "EXPO_PUBLIC_API_URL": "https://assettrack-assettrack-api.vercel.app" }
     }
   }
 }
